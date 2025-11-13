@@ -1,0 +1,21 @@
+type User {
+  id: ID!
+}
+
+extend type Query {
+  users: [User!]!
+}
+
+extend type Mutation {
+  createUser(id: ID!): CreateUserResult!
+}
+
+type CreateUserOk {
+  result: User!
+}
+
+type CreateUserError {
+  error: String!
+}
+
+union CreateUserResult = CreateUserOk | CreateUserError
