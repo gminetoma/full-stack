@@ -1,15 +1,15 @@
 import { Outlet } from '@tanstack/react-router'
-import type { useSSR } from 'react-i18next'
+import {  useSSR } from 'react-i18next'
 import Html from './Html'
 
 type RootProps = {
-  useSSRProps: Parameters<typeof useSSR>
+  readonly useSSRProps: Parameters<typeof useSSR>
 }
 
 const Root = (props: RootProps) => {
   const { useSSRProps } = props
 
-  // useSSR(...useSSRProps)
+  useSSR(...useSSRProps)
 
   return (
     <Html>

@@ -1,3 +1,4 @@
 .tanstack
 *.gen*
 generated
+dist

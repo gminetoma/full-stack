@@ -13,6 +13,6 @@
       "~/*": ["./*"]
     }
   },
-  "include": ["**/*.ts", "**/*.d.ts", "**/*.tsx"],
-  "exclude": ["**/generated", "node_modules"]
+  "include": ["**/*.ts", "**/*.d.ts", "**/*.tsx", "src/routes/__root"],
+  "exclude": ["**/generated", "node_modules", "dist"]
 }

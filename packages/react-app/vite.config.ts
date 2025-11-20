@@ -9,6 +9,9 @@ export default defineConfig({
   server: {
     port: config.get('port'),
   },
+  build: {
+    chunkSizeWarningLimit: 550,
+  },
   plugins: [
     tsConfigPaths(),
     tanstackStart(),
