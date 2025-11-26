@@ -1,0 +1,11 @@
+{
+  "home": {
+    "feature-section-header": "This Full Stack Boilerplate includes these features",
+    "card1-header": "Server Side Rendering",
+    "card1-content": "Pages are rendered on the server for faster load times, improved SEO, and a better user experience.",
+    "card2-header": "Localization",
+    "card2-content": "Easily supports multiple languages and regions with built-in internationalization features.",
+    "card3-header": "Theme Mode Handler",
+    "card3-content": "Seamlessly switches between light and dark modes to enhance accessibility and user preference."
+  }
+}

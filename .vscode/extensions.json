@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "bradlc.vscode-tailwindcss",
+    "peterschmalfeldt.explorer-exclude",
+    "oven.bun-vscode",
+    "lokalise.i18n-ally"
+  ]
+}

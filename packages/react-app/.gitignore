@@ -1,0 +1,6 @@
+# Generated
+.tanstack
+*.gen*
+.vite
+generated
+dist

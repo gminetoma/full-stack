@@ -1,0 +1,5 @@
+@utility page-section {
+  @layer components {
+    @apply px-5;
+  }
+}
