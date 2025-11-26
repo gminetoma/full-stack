@@ -1,0 +1,7 @@
+# Generated
+.tanstack
+*.gen*
+.vite
+generated
+dist
+coverage

@@ -1,0 +1,11 @@
+{
+  "home": {
+    "feature-section-header": "Este Boilerplate Full Stack inclui esses recursos",
+    "card1-header": "Renderização no lado do servidor",
+    "card2-content": "Suporta facilmente vários idiomas e regiões com recursos integrados de internacionalização.",
+    "card2-header": "Localização",
+    "card3-content": "Alterna perfeitamente entre os modos claro e escuro para melhorar a acessibilidade e a preferência do usuário.",
+    "card1-content": "As páginas são renderizadas no servidor para tempos de carregamento mais rápidos, SEO aprimorado e uma melhor experiência do usuário.",
+    "card3-header": "Manipulador de modo de tema"
+  }
+}

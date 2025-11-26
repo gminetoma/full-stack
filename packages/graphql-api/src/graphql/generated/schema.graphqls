@@ -1,0 +1,25 @@
+type CreateUserError {
+  error: String!
+}
+
+type CreateUserOk {
+  result: User!
+}
+
+union CreateUserResult = CreateUserError | CreateUserOk
+
+type Mutation {
+  createUser(id: ID!): CreateUserResult!
+}
+
+type Query {
+  users: [User!]!
+}
+
+type Subscription {
+  time: String!
+}
+
+type User {
+  id: ID!
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.3.5/schema.json",
+  "root": false,
+  "extends": "//",
+  "files": {
+    "includes": ["!**/*.gen.*", "!**/generated", "!dist"]
+  },
+  "linter": {
+    "rules": {
+      "suspicious": {
+        "noConsole": "warn"
+      }
+    }
+  }
+}

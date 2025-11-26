@@ -1,0 +1,58 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.defaultFormatter": "biomejs.biome",
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.hg/**",
+    "**/.svn/**"
+  ],
+  "tailwindCSS.classFunctions": ["cn"],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/generated": true,
+    "**/node_modules": true,
+    "**/.tanstack": true,
+    "**/*.gen.*": true,
+    "**/.vite": true
+  },
+  "explorerExclude.backup": {},
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  // If support for Bun should be added to the default "JavaScript Debug Terminal".
+  "bun.debugTerminal.enabled": true,
+
+  // If the debugger should stop on the first line of the program.
+  "bun.debugTerminal.stopOnEntry": false,
+
+  // Glob pattern to find test files. Defaults to the value shown below.
+  "bun.test.filePattern": "**/*{.test.,.spec.,_test_,_spec_}{js,ts,tsx,jsx,mts,cts,cjs,mjs}",
+
+  // The custom script to call for testing instead of `bun test`
+  "bun.test.customScript": "bun test",
+  "i18n-ally.localesPaths": ["packages/react-app/public/locales"],
+  "cSpell.words": ["daisyui"],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.namespace": true
+}
