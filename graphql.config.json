@@ -1,0 +1,4 @@
+{
+  "$schema": "https://unpkg.com/graphql-config@5.1.5/config-schema.json",
+  "schema": "packages/graphql-api/src/graphql/generated/schema.graphql"
+}
