@@ -3,7 +3,7 @@
   "root": false,
   "extends": "//",
   "files": {
-    "includes": ["!**/*.gen.*", "!**/generated", "!dist"]
+    "includes": ["!**/*.gen.*", "!**/generated", "!dist", "!coverage"]
   },
   "linter": {
     "rules": {
